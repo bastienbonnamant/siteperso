@@ -2,7 +2,7 @@
 NAVBAR
 ----------------------------------*/
 .uk-navbar-container:not(.uk-navbar-transparent) {
-    background: #303030;
+    background-color: rgba(0,0,0,.2);
     padding: 15px;
 }
 

@@ -1,0 +1,37 @@
+.h1_add {
+    color: #066388;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+form.form_add {
+    margin-bottom: 50px;
+    background-color: aliceblue;
+    padding: 30px;
+}
+
+.form_add_div {
+    background-color: aliceblue;
+    height: 30rem;
+}
+
+section.section_show {
+    display: flex;
+}
+
+.button_block_form{
+    background-color: #066388!important;
+    color: white!important;
+    border-radius: 30px!important;
+    width: 200px;
+    height: 60px;
+    border: none!important;
+    margin-bottom: 50px!important;
+}
+
+.button_block_form:hover {
+    background-color: white!important;
+    color: #066388!important;
+    border: solid #066388 2px!important;
+}

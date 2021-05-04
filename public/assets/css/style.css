@@ -2,9 +2,12 @@
 GENERAL
 ----------------------------------*/
 
+
+
 @font-face {
-    font-family: "Dosis";
-    src: url("https://fonts.google.com/specimen/Dosis#standard-styles");
+
+    font-family: Montserrat;
+    src: url("https://fonts.google.com/specimen/Montserrat");
 }
 
 .h2_slidshow{
@@ -17,7 +20,8 @@ GENERAL
     font-size: 4rem;
     font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
     text-align: center;
-    color: white;
+    color: #066388;
+    margin: 70px;
 }
 
 .h4_slidshow{
@@ -38,24 +42,92 @@ GENERAL
 
 /* 3 boxs produits proposés */
 .uk-card.uk-card-secondary.uk-card-body {
-    height: 450px;
-    margin: 50px;
+    height: 560px;
+    margin: 90px;
     border-radius: 30px;
     box-shadow: grey 3px 3px 13px 0px;
 }
+
+
+
+.button_block_service{
+    background-color: #066388!important;
+    color: white!important;
+    border-radius: 30px!important;
+    width: 200px;
+    height: 60px;
+    border: none!important;
+    margin-bottom: 20px!important;
+}
+
+.h3_service {
+    font-family: sans-serif;
+    font-size: 32px!important;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.button_block_service:hover {
+    background-color: white!important;
+    color: #066388!important;
+    border: solid #066388 2px!important;
+}
+
+
 /* bandeau bleu */
 
 .uk-margin.uk-card.uk-card-default.uk-card-body {
-    height: 270px;
+    height: 290px;
     width: 95%;
     margin-left: auto;
     background-color: #066388;
     margin-right: auto;
-    /* opacity: 100%; */
     border-radius: 30px;
+    display: flex;
+    box-shadow: #6b6b6b 6px 4px 20px 0px;
+}
+
+/* paragraphe sur moi*/
+
+.p_about{
+    color: #ececec;
+    font-size: 20px;
+    margin: 39px;
+    text-align: justify;
+}
+}
+
+/* image dans le bandeau bleu */
+
+.image_about{
+    width: 220px;
+    border-radius: 100px;
+    box-shadow: #1b1b1b 4px 6px 11px 0px;
+    height: auto;
+    box-sizing: border-box;
 }
 
 .section_blog {
-    background-color: #303030;
+    background-color: #ececec;
     padding: 50px;
+}
+
+/* carré articles de blog */
+.uk-card.uk-card-default.uk-card-body.uk-scrollspy-inview.uk-animation-slide-bottom {
+    height: 30rem;
+    background-color: aliceblue;
+}
+
+.button_block_blog{
+    background-color: #066388!important;
+    color: white!important;
+    border-radius: 30px!important;
+    width: 200px;
+    height: 60px;
+}
+
+.button_block_blog:hover {
+    background-color: white!important;
+    color: #066388!important;
+    border: solid #066388 2px!important;
 }

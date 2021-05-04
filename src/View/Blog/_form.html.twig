@@ -1,11 +1,32 @@
 {# TODO : manage errors display #}
+<div class="form_add_div">
+	<h1 class="h1_add">Ajoutez un article</h1>
 
-<form method="post">
+	<form method="post" class="form_add">
 	<input type="hidden" value="{{ blog.id }}" name="id">
 	<input type="text" value="{{ blog.title }}" name="title" placeholder="Titre">
 	<input type="text" value="{{ blog.name }}" name="title" placeholder="Nom de l'article">
 	<input type="number" value="{{ blog.date }}" name="title" placeholder="Date">
 	<input type="text" value="{{ blog.text }}" name="title" placeholder="Texte">
 
-	<input type="submit" value="Valider">
-</form>
+	<input type="submit" value="Valider" class="button_block_service">
+
+	</form>
+
+
+
+{% block content %}
+	<h1 class="h1_add">Vos articles ajoutés</h1>
+
+	<h2>Article {{ blog.name }}</h2>
+	<p>{{ blog.id }}. {{ blog.name }}</p>
+	<section class="section_show">
+		<a href="/Blog/edit/{{ blog.id }}" class="button_block_form">Modifier</a>
+		<form action="/Blog/delete/{{blog.id}}" method="POST">
+			<button class="button_block_form">Effacer</button>
+		</form>
+		<a href="/Blog/index" class="button_block_form">Retour</a>
+	</section>
+{% endblock %}
+
+</div>

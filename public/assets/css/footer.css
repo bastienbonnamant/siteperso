@@ -1,6 +1,6 @@
 .footer {
     background-color: white;
-    height: 400px;
+    height: 300px;
 }
 
 .logo{
@@ -16,4 +16,15 @@
     color: white;
     padding: 10px;
     font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+
+.uk-panel {
+    display: flow-root;
+    position: relative;
+    box-sizing: border-box;
+    margin: 120px;
+}
+
+.bastienbonnamant {
+    width: 430px;
 }
