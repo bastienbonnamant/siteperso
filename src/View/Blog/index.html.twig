@@ -1,0 +1,25 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}
+Album Hopla Guys
+{% endblock %}
+
+{% block content %}
+<h1 class="h1_album">Articles</h1>
+
+    <h2 class="h2_album">Mon blog</h2>
+
+    {% for blog in blogs %}
+        <div class="liste_album">
+            <li class="li_album">{{ blog.title ~ blog.text }}</li>
+        </div>
+        <section class="form_bouton">
+            <div class="div_ajouter">
+                <a class="link_album" href="/Blog/add">Ajouter</a>
+
+                <a class="link_album" href="/Blog/show/{{ blog.id }}">Modifier</a>
+            </div>
+        </section>
+    {% endfor %}
+
+{% endblock %}

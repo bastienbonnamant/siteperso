@@ -1,0 +1,12 @@
+/*----------------------------------
+NAVBAR
+----------------------------------*/
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #303030;
+    padding: 15px;
+}
+
+.logo_navbar{
+    height: 40px;
+    margin-top: 20px;
+}

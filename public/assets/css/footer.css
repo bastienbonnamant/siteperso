@@ -1,0 +1,19 @@
+.footer {
+    background-color: white;
+    height: 400px;
+}
+
+.logo{
+    height: 100px;
+}
+
+.footer_footer{
+    height: 50px;
+    background-color: #303030;
+}
+
+.h5_footer{
+    color: white;
+    padding: 10px;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}

@@ -1,0 +1,61 @@
+/*----------------------------------
+GENERAL
+----------------------------------*/
+
+@font-face {
+    font-family: "Dosis";
+    src: url("https://fonts.google.com/specimen/Dosis#standard-styles");
+}
+
+.h2_slidshow{
+    font-size: 4rem;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    text-shadow: #303030 5px 3px 8px;
+}
+
+.h2_section_blog{
+    font-size: 4rem;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.h4_slidshow{
+    font-size: 20px;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    text-shadow: #303030 5px 3px 8px;
+}
+
+.uk-text-center {
+    text-align: center!important;
+    margin: 35px;
+}
+
+.uk-inline-clip.uk-transition-toggle {
+    border-radius: 30px;
+    height: 40rem;
+}
+
+/* 3 boxs produits proposés */
+.uk-card.uk-card-secondary.uk-card-body {
+    height: 450px;
+    margin: 50px;
+    border-radius: 30px;
+    box-shadow: grey 3px 3px 13px 0px;
+}
+/* bandeau bleu */
+
+.uk-margin.uk-card.uk-card-default.uk-card-body {
+    height: 270px;
+    width: 95%;
+    margin-left: auto;
+    background-color: #066388;
+    margin-right: auto;
+    /* opacity: 100%; */
+    border-radius: 30px;
+}
+
+.section_blog {
+    background-color: #303030;
+    padding: 50px;
+}
